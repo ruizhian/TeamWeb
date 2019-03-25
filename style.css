@@ -14,7 +14,6 @@ body {
     background-size: 100% 100%;
     color: wheat;
 }
-/*
 @media screen and (max-width: 768px) {
     #main {
         width: 100%;
@@ -59,7 +58,7 @@ body {
     .container #main p:nth-child(3) {
         font-size: 25px;
     }
-}*/
+}
 
 /*---*/
 ul {
@@ -70,10 +69,7 @@ ul {
     width: 100%;
     z-index: 1000;
 }
-#logo img{
-    width: 60px;
-    height: 60px;
-}
+
 .navbar-inverse {
     border: 0 none;
     background: #021942 none repeat scroll 0 0;
@@ -115,7 +111,9 @@ ul {
 }
 
 /*-------*/
-
+#besides-footer {
+    padding-bottom: 100px;
+}
 #main {
     position: absolute;
     width: 100%;
@@ -145,35 +143,4 @@ ul {
     border-radius: 50% 50%;
     border:2px solid rgb(81,125,207);
     cursor: pointer;
-}
-
-#main-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 90px;
-    z-index: 1000;
-   
-}
-#main-nav ul{
-    position: relative;
-    padding-top: 2%;
-    left: 30%;
-}
-#main-nav li{
-    margin: 20px;
-    display: inline;
-    list-style-type: none;
-    font-size: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-
-}
-
-a {
-    color: wheat;
-    text-decoration-line: none;
-}
-li a:hover{
-    color: rgb(81, 125, 207);
 }

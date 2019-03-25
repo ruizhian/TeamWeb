@@ -6,11 +6,11 @@
     transform: translate(-50%,0%);
     width: 80%;
     height: auto; 
-    background: rgba(241,243,244,0.2);
+   /* background: rgba(241,243,244,0.2);*/
     text-align: center;
     overflow-wrap: break-word;
     border-radius: 5% 5%;
-    font-family: KaiTi;
+    font-family: Microsoft Yahei;
     
 }
 
@@ -26,7 +26,7 @@
     margin: auto;
     padding-top: 10%;
     width: 60%;
-    font-size: 23px;
+    font-size: 20px;
     color:wheat;
     text-align: left;
     line-height: 35px;
@@ -42,8 +42,8 @@
     margin-top: 10%;
     width: 80%;
     left: 8%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 23px;
+    font-family: Microsoft Yahei;
+    font-size: 20px;
     line-height: 50px;
     text-align: center;
 }
@@ -75,18 +75,22 @@ table {
     vertical-align: middle;
     margin: auto;
 }
+
 #contents {
     /*margin-left: 5%;*/
     position: relative;
     font-size: 20px;
     margin-bottom: 20%;
 }
-
-#contents .organization {
-    font-size: 25px;
-    font-weight: bolder;
+#contents p:nth-child(1) {
+    font-size: 23px;
+    font-weight: bold;
 }
-#button {
+#contents .organization {
+    font-size: 22px;
+    
+}
+#buttons {
     position: absolute;
     display: flex;
     width: 300px;
@@ -113,72 +117,99 @@ table {
     border-radius: 50% 50%;
     text-align: center;
 }
+
 a:hover {
     color:  wheat;
 }
-/*
+
 @media screen and (max-width: 1200px) and (min-width: 992px) {
     #introdution #theme{
        font-size: 30px;
     }
-    .introdution,.speaker,.main2{
-        display: unset;
+   
+    table {
+        width: 100%;
     }
     
 }
 @media screen and (max-width: 992px) and (min-width: 768px) {
     #introdution #theme{
         
-        font-size: 30px;
-    }
-    #speaker {
-        padding-left:10%;
-        font-size: 18px;
+        font-size: 20px;
     }
     #contents {
         text-align: unset;
         padding-right: 10%;
         margin-left: 0;
     }
-    .introdution,.speaker,.main2{
-        display: unset;
+  
+    table {
+        width: 100%;
     }
-    
 }
 @media screen and (max-width: 768px) {
     
     #introdution {
         width: 100%;
     }
-    .title {
-        margin-top: 60px;
-        padding: 5px;
-        line-height: 25px;
-        width: 100px;
-        height: 30px;
-        left: 37%;
-        font-family: KaiTi;
-        font-size: 20px;
-        color: wheat;
-        background: rgb(54, 119, 231);
-    }
-    .title3{
-        width: 120px;
-    }
+    
+    
     #introdution #theme{
         left: 0;
         width: 100%;
         padding:2% ;
         font-size: 20px;
     }
-    #speaker {
+    .introdution,.speaker,.main2{
+        display: unset;
+    }
+    table {
         width: 100%;
-        left: 5%;
-        font-size: 13px;
+    }
+}
+@media screen and (max-width: 992px) and (min-width: 768px) {
+    #introdution #theme{
+        
+        font-size: 20px;
+    }
+    #contents {
+        text-align: unset;
+        padding-right: 10%;
+        margin-left: 0;
+    }
+    table {
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width: 375px) {
+    
+    #introdution {
+        width: 100%;
+    }
+    
+   
+    
+    #introdution #theme{
+        left: 0;
+        width: 100%;
+        padding:2% ;
+        font-size: 20px;
     }
     .introdution,.speaker,.main2{
         display: unset;
     }
+    table {
+        width: 100%;
+        padding: 0;
+        font-size: 12px;
+    }
+    tr td:nth-child(1) {
+        width: 24%;
+    }
+    #last-tr {
+        vertical-align: -webkit-baseline-middle
+    }
     
+
 }
-*/

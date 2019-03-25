@@ -2,15 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!--<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
-    <link href="https://cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <!--
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
     <link href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-    <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
-    
-    <script src="dist/js/jquery.min.js" ></script>
-    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="dist/js/bootstrap.min.js"></script>
+    <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    -->
+    <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+    <link href="https://cdn.bootcss.com/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="introduction.css">
     <link rel="stylesheet" href="about.css">
@@ -23,38 +24,99 @@
         <header style="min-height: 76px;">
                 <nav id="main-nav" class="navbar navbar-inverse" role="navigation">
                     <div class="container">
-                        <div>
-                            <ul>
-                                <div id="navbar-header">
-                                    <a class="navbar-brand" href="index.html"><img alt="安全多方计算国际论坛-2019" src="image/logo.png"></a>
-                                </div>
-                                <div id="besides-footer">
-                                    <nav id="main-nav" name="main-nav">
-                                        <ul>
-                                            <li><a href="index.html">
-                                                <i class="fa fa-home fa-1x" aria-hidden="true"></i> 主页</a></li>
-                                            <li><a href="introduction.html">会议介绍</a></li>
-                                            <li><a href="about.html">注册参会</a></li>
-<!--                                             <li><a href="English/about.html">ENGLISH</a></li> -->
-                                            <li><a>ENGLISH</a></li>
-                                        </ul>
-                                    </nav>
-                                </div>
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                                <span class="sr-only">切换导航</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="index.html"><img alt="安全多方计算国际论坛-2019" src="image/logo.png"></a>
+                        </div>
+                        <div id="navbar-collapse" class="collapse navbar-collapse">
+                            <ul class="nav navbar-nav navbar-right">
+                                    <li><a href="index.html">
+                                            <i class="fa fa-home fa-1x" aria-hidden="true"></i> 主页</a></li>
+                                    <li><a href="introduction.html">会议介绍</a></li>
+                                    <li><a href="about.html">注册参会</a></li>
+                                    <li><a href="#">ENGLISH</a></li>
                             </ul>
                         </div>
-                    </div><!-- /.container-->
+                    </div>
                 </nav>
         </header>    
     </div>
     <div id="main2" >
         <div id="register">
-                <h2 class="title "><b>注册信息</b></h2>
-                    <p>注册费：1500元/人，自行参会人员食宿自理，<br/>
+            <table>
+                <caption>注册信息</caption>
+                <tbody class="table">
+                    <tr >
+                        <td>注册费用：1500元/人，自行参会人员食宿自理，</td>
+                    </tr>
+                    <tr><td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; 可通过网银转账、银行汇款方式缴纳</td></tr>
+
+                    <tr>
+                        <td>(网银转账、银行汇款收款人信息如下)</td>
+                    </tr>
+                    <tr>
+                        <td>单位名称：
+                        杭州灵峰会议服务有限公司</td>
+                    </tr>
+                    <tr>
+                        <td>税 &nbsp; &nbsp;&nbsp;&nbsp;号：
+                        9133 0104 7368 6237 57</td>
+                    </tr>
+                    <tr>
+                        <td>开户银行：中国银行浙大支行</td>
+                    </tr>
+                    <tr>
                         
-                        可通过网银转账、银行汇款方式缴纳。<br/>
+                        <td>(转账时请注明单位与姓名)</td>
+                    </tr>
+                    
+                </tbody>
+                <caption>住宿信息</caption>
+                <tbody class="table">
+                    <tr><td>本次论坛为所有邀请报告人提供住宿以及往返机票/高铁票报销。</td></tr>
+                    <tr>
+                        <td>所邀请报告人将居住在浙江世贸
+                            <a href="https://www.google.cn/maps/place/Zhejiang+Narada+Grand+Hotel/@30.265754,120.1384123,17z/data=!3m1!4b1!4m5!3m4!1s0x344b628dca7f2211:0x17322478b872549!8m2!3d30.265754!4d120.140601
+                            ">君澜大饭店</a>，
+                        </td>
                         
-                        （注：转账时请注明单位和姓名）<br/>
-    
+                    </tr>
+                    <tr><td>其他自行参会者可以选择
+                        <a href="https://www.google.cn/maps/place/Yuquan+Hotel/@30.25931,120.1233353,17z/data=!3m1!4b1!4m5!3m4!1s0x344b62e861cb5fd3:0xd27d4eae06cbaa12!8m2!3d30.25931!4d120.125524
+                        ">玉泉饭店</a>
+                        和
+                        <a href="https://www.google.cn/maps/place/%E7%81%B5%E5%B3%B0%E5%B1%B1%E5%BA%84/@30.260165,120.1236463,17z/data=!3m1!4b1!4m5!3m4!1s0x344b62e8ec4d88f5:0x893252db7ac4d6c3!8m2!3d30.260165!4d120.125835
+                       ">灵峰山庄</a>。
+                    </td>
+                    </tr>
+                    <caption>
+                            联系方式
+                    </caption>
+                    <tbody class="table">
+                        <tr>
+                            <td>论坛联系人：
+                            蒋林智</td>
+                        </tr>
+                        <tr>
+                            <td>论坛注册联系电话：
+                            18180453935</td>
+                        </tr>
+                        <tr>
+                            <td>论坛注册邮箱：
+                            linzjiang(#)hotmail(dot)com</td>
+                        </tr>
+                    </tbody>
+                </tbody>
+            </table>
+                <!--注册信息
+                    <p>每人1500元，可通过网银转账、银行汇款方式缴纳。<br/>
+
+
                             网银转账、银行汇款收款人信息如下：<br/>
                             
                             单位名称：杭州灵峰会议服务有限公司<br/>
@@ -63,11 +125,17 @@
                             
                             开户行：中国银行浙大支行<br/>
                             
-                            账号：<b>377 958 327 225</b></p>
+                            账号：<b>377 958 327 225</b><br/>
+                            转账时请注明单位与姓名<br/></p>-->
         </div>
         <div id="stay-info">
-            <h2 class="title"><b>住宿信息</b></h2>
-            <p>本次论坛为所有邀请报告人提供住宿以及往返机票/高铁票报销。<br/>
+            <table class="stay-info">
+                
+                
+            </table>
+            <!--
+            住宿信息
+            <p>本次论坛为所有邀请报告人提供住宿以及往返机票。<br/>
                 所邀请报告人将居住在浙江世贸
                 <a href="https://www.google.cn/maps/place/Zhejiang+Narada+Grand+Hotel/@30.265754,120.1384123,17z/data=!3m1!4b1!4m5!3m4!1s0x344b628dca7f2211:0x17322478b872549!8m2!3d30.265754!4d120.140601
                 ">君澜大饭店</a>
@@ -77,20 +145,20 @@
                 和
                 <a href="https://www.google.cn/maps/place/%E7%81%B5%E5%B3%B0%E5%B1%B1%E5%BA%84/@30.260165,120.1236463,17z/data=!3m1!4b1!4m5!3m4!1s0x344b62e8ec4d88f5:0x893252db7ac4d6c3!8m2!3d30.260165!4d120.125835
                 ">灵峰山庄</a>。
-            </p>
+            </p>-->
         </div>
         <div id="participation-method" name="method"> 
-                <h2 class="title "><b>联系方式</b></h2>
-                <!--<img src="image/-two-dimension-code.png" id="two-dc">
-                <p>微信扫一扫加入参会群</p>-->
+            <table class="method">
+                
+            </table>
+               <!-- 联系方式
                 <p>
                     论坛联系人：蒋林智<br/>
                     联系电话：18180453935 <br/>
                     邮箱：linzjiang(#)hotmail(dot)com
                     <br/>
-                </p>
-            </div>
-    </div>
+                </p>-->
+        </div>
    <div id="up2">
             <a href="introduction.html">
                 <i class="fa fa-angle-double-up  fa-3x" style="color:rgb(81,125,207)" aria-hidden="true"></i>
