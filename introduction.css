@@ -47,7 +47,7 @@
     line-height: 50px;
     text-align: center;
 }
-table {
+.table {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -55,7 +55,7 @@ table {
     align-items: center;
     margin: auto;
     text-align: left;
-    width: 80%;
+    width: 100%;
     margin-bottom: 10%;
 }
 
