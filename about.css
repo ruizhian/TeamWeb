@@ -41,7 +41,7 @@
    
 }
 #register table {
-    width: 100%;
+    width: 50%;
 }
 #register table caption {
     font-size: 21px;
@@ -61,7 +61,7 @@
 }
 .method {
     width: 100%;
-}
+} 
 #up2 {
     position: relative;
     display: flex;
@@ -76,68 +76,29 @@
     font-size: 15px;
     text-align: center;
 }
-/*
+
 @media screen and (max-width: 767px) {
-    #main2 {
+    #register table {
         width: 100%;
-        padding:2%;
-        font-size: 18px;
-    }
-    .title { 
-        width: 120px;
-        height: 40px;
-        left: 35%;
-        top: -10%;
-    }
-    .title4 {
-        top: 55%;
     }
 
 }
 @media screen and (width: 768px) {
-    #main2 {
-        width: 100%;
-        top: 0%;
-        padding:2%;
-        font-size: 18px;
-        
+    
+    #register table {
+        width: 80%;
     }
-    .title {
-        left: 50%;
-        transform: translate(-50% 0);
-        width: 120px;
-        height: 40px;
-        left: 43%;
-    }
-   
 }
+/*
 @media screen and (max-width: 992px) and(min-width:768px) {
-    #main2 {
-        position: absolute;
-        width: 100%;
-        top: 40%;
-        margin-top: 0;
-        padding:5%;
-        font-size: 18px;
-    }
-    .title {
-        left: 100%;
-        transform: translate(-50% 0);
-        width: 120px;
-        height: 40px;
-        left: 35%;
-    }
+   
     
 
 }
 @media screen and (max-width: 1025px) and (min-width: 992px) {
-    #participation-method {
-        margin-top: 20%;
-    }
+    
 }
 @media screen and (min-width: 992px) {
    
-    #up2 {
-       top: 10%;
-    }
+   
 }*/

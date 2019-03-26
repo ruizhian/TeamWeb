@@ -55,7 +55,7 @@
     align-items: center;
     margin: auto;
     text-align: left;
-    width: 100%;
+    width: 80%;
     margin-bottom: 10%;
 }
 
@@ -158,13 +158,24 @@ a:hover {
         left: 0;
         width: 100%;
         padding:2% ;
-        font-size: 20px;
+        font-size: 18px;
     }
     .introdution,.speaker,.main2{
         display: unset;
     }
     table {
         width: 100%;
+    }
+    #contents {
+        font-size: 18px;
+    }
+    #contents p:nth-child(1) {
+        font-size: 21px;
+        font-weight: bold;
+    }
+    #contents .organization {
+        font-size: 20px;
+        
     }
 }
 @media screen and (max-width: 992px) and (min-width: 768px) {
@@ -180,7 +191,14 @@ a:hover {
     table {
         width: 100%;
     }
-    
+    #contents p:nth-child(1) {
+        font-size: 21px;
+        font-weight: bold;
+    }
+    #contents .organization {
+        font-size: 20px;
+        
+    }
 }
 @media screen and (max-width: 375px) {
     
@@ -194,7 +212,18 @@ a:hover {
         left: 0;
         width: 100%;
         padding:2% ;
-        font-size: 20px;
+        font-size: 15px;
+    }
+    #contents {
+        font-size: 15px;
+    }
+    #contents p:nth-child(1) {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    #contents .organization {
+        font-size: 17px;
+        
     }
     .introdution,.speaker,.main2{
         display: unset;
@@ -205,7 +234,7 @@ a:hover {
         font-size: 12px;
     }
     tr td:nth-child(1) {
-        width: 24%;
+        width: 34%;
     }
     #last-tr {
         vertical-align: -webkit-baseline-middle
