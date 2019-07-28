@@ -146,7 +146,7 @@ ul {
 }
 
 .submenu{
-    float: auto;
+    
 }
 
 .sub{
@@ -156,5 +156,6 @@ ul {
 }
 
 .submenu:hover .sub{
-    left:auto;
+    
+    left: 1em;
 }
