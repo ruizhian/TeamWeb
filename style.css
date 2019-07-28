@@ -146,13 +146,11 @@ ul {
 }
 
 .submenu{
-	width: 14em;
 	float: left;
 }
 
 .sub{
     list-style-type: none;
-    width: 14em;
     position: absolute;
     left: -999em;
 }
