@@ -152,7 +152,7 @@ ul {
 
 .sub{
     list-style-type: none;
-    width: 7em;
+    width: 14em;
     position: absolute;
     left: -999em;
 }
