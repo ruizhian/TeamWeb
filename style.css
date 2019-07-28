@@ -155,7 +155,7 @@ ul {
     left: -999em;
 }
 
-.sub > li{
+.sub > li > a{
     font-size: 20px;
 }
 
