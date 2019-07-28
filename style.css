@@ -145,6 +145,11 @@ ul {
     cursor: pointer;
 }
 
+.submenu{
+	width: 8em;
+	float: left;
+}
+
 .sub{
     list-style-type: none;
     width: 7em;
@@ -152,12 +157,6 @@ ul {
     left: -999em;
 }
 
-.nav-this{
-	    display: block;
-        margin: 7.5px -15px;
-        float: right;
-}
-
-.nav-this li:hover .sub{
+.submenu:hover .sub{
     left:auto;
 }
