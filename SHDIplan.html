@@ -136,20 +136,14 @@
  <tr><td>&nbsp;</td><td>14:00 - 17:30</td><td>自由论坛时间</td><td>蒋林智</td></tr>
 </tbody></table>
 	    </br></br>
-	<div class="main2">
-		<div id="buttons">
-                   <a id="up1" href="SHDIpage.html" >
-                        <i class="fa fa-angle-double-up fa-3x" style="color:rgb(81,125,207)"aria-hidden="true"></i>
-                    </a>
-                    <a  id="down2" href="SHDIregister.html">
-                        <i class="fa fa-angle-double-down fa-3x"style="color:rgb(81,125,207)"aria-hidden="true"></i>
-                   </a>
-     		</div>
-	</div>
-
+   <div id="up2">
+            <a href="SHDIpage.html">
+                <i class="fa fa-angle-double-up  fa-3x" style="color:rgb(81,125,207)" aria-hidden="true"></i>
+            </a>
+    </div>
     <script>
-        let up1=document.getElementById('up1'),
-            down2=document.getElementById('down2');
+        let iconDown=document.getElementById('up2');
+            
             //跨浏览器兼容事件处理器
         var addHandler=function(element,type,handler){
             if(addEventListener){
@@ -163,18 +157,13 @@
             }
         }
         //向下图标的鼠标事件及点击事件监听器
-        addHandler(up1,"mouseover",()=>up1.style.border="2px solid wheat");
+        addHandler(up2,"mouseover",()=>iconDown.style.border="2px solid wheat");
             
-        addHandler(up1,"click",()=>up1.style.border="2px dotted wheat");
-        
-        addHandler(up1,"mouseout",()=>up1.style.border="");
-       
-        addHandler(down2,"mouseover",()=>down2.style.border="2px solid wheat");
-            
-        addHandler(down2,"click",()=>down2.style.border="2px dotted wheat");
-        
-        addHandler(down2,"mouseout",()=>down2.style.border="");
-        window.sr = ScrollReveal().reveal('#introdution,#speaker,#contents,#button');
+        addHandler(up2,"click",()=>iconDown.style.border="2px dotted wheat");
+    
+        addHandler(up2,"mouseout",()=> iconDown.style.border="");
+        window.sr = ScrollReveal().reveal('#participation-method,#register,#stay-info,p,#up2');
     </script>
+
 </body>
 </html>
