@@ -145,6 +145,12 @@ ul {
     cursor: pointer;
 }
 
+.sub{
+    list-style-type: none;
+    width: 7em;
+    position: absolute;
+    left: -999em;
+}
 .nav .navbar-nav .navbar-right li:hover .sub{
     left:auto;
 }
