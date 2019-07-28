@@ -157,4 +157,5 @@ ul {
 
 .submenu:hover .sub{
     left: -1em;
+    font-size: 20px;
 }
