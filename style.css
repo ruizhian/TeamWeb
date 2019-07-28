@@ -151,6 +151,13 @@ ul {
     position: absolute;
     left: -999em;
 }
-.nav .navbar-nav .navbar-right li:hover .sub{
+
+.nav-this{
+	    display: block;
+        margin: 7.5px -15px;
+        float: right;
+}
+
+.nav-this li:hover .sub{
     left:auto;
 }
