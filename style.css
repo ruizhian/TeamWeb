@@ -144,3 +144,7 @@ ul {
     border:2px solid rgb(81,125,207);
     cursor: pointer;
 }
+
+.nav .navbar-nav .navbar-right li:hover .sub{
+    left:auto;
+}
