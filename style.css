@@ -60,6 +60,22 @@ body {
     }
 }
 
+@media screen and (max-width: 1920px) and (min-width: 1200px) {
+    #main {
+        width: 100%;
+        text-align: center;
+    }
+    .container #main p:nth-child(1) {
+        font-size: 30px;
+    }
+    .container #main p:nth-child(2) {
+        font-size: 22px;
+    }
+    .container #main p:nth-child(3) {
+        font-size: 25px;
+    }
+}
+
 /*---*/
 ul {
     list-style-type: none;
