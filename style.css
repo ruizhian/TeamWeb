@@ -155,7 +155,10 @@ ul {
     left: -999em;
 }
 
+.sub > li{
+    font-size: 20px;
+}
+
 .submenu:hover .sub{
     left: -1em;
-    font-size: 20px;
 }
