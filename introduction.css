@@ -82,10 +82,7 @@
     font-size: 20px;
     margin-bottom: 20%;
 }
-#contents p:nth-child(1) {
-    font-size: 23px;
-    font-weight: bold;
-}
+
 #contents .organization {
     font-size: 22px;
     
@@ -169,10 +166,7 @@ a:hover {
     #contents {
         font-size: 18px;
     }
-    #contents p:nth-child(1) {
-        font-size: 21px;
-        font-weight: bold;
-    }
+
     #contents .organization {
         font-size: 20px;
         
@@ -217,10 +211,7 @@ a:hover {
     #contents {
         font-size: 15px;
     }
-    #contents p:nth-child(1) {
-        font-size: 18px;
-        font-weight: bold;
-    }
+
     #contents .organization {
         font-size: 17px;
         
