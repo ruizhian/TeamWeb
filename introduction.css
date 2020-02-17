@@ -6,12 +6,19 @@
     transform: translate(-50%,0%);
     width: 80%;
     height: auto; 
-    
+    /*background: rgba(241,243,244,0.2);*/
     text-align: center;
     overflow-wrap: break-word;
     border-radius: 5% 5%;
     font-family: Microsoft Yahei;
     
+}
+
+#table1{
+
+    width: 91%;
+    float: right;
+    line-height: 25px;
 }
 
 #introdution2{
@@ -22,7 +29,7 @@
     margin: auto;
     float: right;
     width: 100%;
-    font-size: 20px;
+    font-size: 15px;
     color:wheat;
     text-align: left;
     line-height: 35px;
@@ -40,11 +47,11 @@
     vertical-align: middle;
     margin: auto;
     padding-top: 10%;
-    width: 60%;
-    font-size: 20px;
+    width: 80%;
+    font-size: 15px;
     color:wheat;
     text-align: left;
-    line-height: 35px;
+    line-height: 40px;
 }
 
 #speaker {
