@@ -1,0 +1,260 @@
+
+#introdution{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%,0%);
+    width: 80%;
+    height: auto;
+    /*background: rgba(241,243,244,0.2);*/
+    text-align: center;
+    overflow-wrap: break-word;
+    border-radius: 5% 5%;
+    font-family: Microsoft Yahei;
+
+}
+
+#table1{
+
+    width: 91%;
+    float: right;
+    line-height: 25px;
+}
+
+#introdution2{
+    position: relative;
+    margin-top: 10%;
+    display: table-cell;
+    vertical-align: middle;
+    margin: auto;
+    float: right;
+    width: 100%;
+    font-size: 15px;
+    color:wheat;
+    text-align: left;
+    line-height: 35px;
+    padding-top: 10px;
+}
+
+.introdution,.speaker,.main2 {
+    display: flex;
+}
+
+#theme {
+    position: relative;
+    margin-top: 10%;
+    display: table-cell;
+    vertical-align: middle;
+    margin: auto;
+    padding-top: 10%;
+    width: 80%;
+    font-size: 15px;
+    color:wheat;
+    text-align: left;
+    line-height: 40px;
+}
+
+#speaker {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 10%;
+    width: 80%;
+    left: 8%;
+    font-family: Microsoft Yahei;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+}
+.table {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: left;
+    width: 80%;
+    margin-bottom: 10%;
+}
+
+#speaker p {
+    position: relative;
+    width: 90%;
+}
+#speaker .speaker {
+    position: relative;
+    left: -15%;
+}
+#speaker+p {
+    margin-bottom: 10%;
+}
+#main2 {
+    display: table-cell;
+    vertical-align: middle;
+    margin: auto;
+}
+
+#contents {
+    /*margin-left: 5%;*/
+    position: relative;
+    font-size: 20px;
+    margin-bottom: 20%;
+}
+
+#contents .organization {
+    font-size: 22px;
+
+}
+#buttons {
+    position: absolute;
+    display: flex;
+    width: 300px;
+    height: 45px;
+    margin: 50px;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+#up1 {
+    position: relative;
+    border: 2px solid  rgb(54, 119, 231);
+    width: 43px;
+    height: 43px;
+    border-radius: 50% 50%;
+    text-align: center;
+}
+#down2 {
+    position: relative;
+    left: 100px;
+    width: 43px;
+    height: 43px;
+    border: 2px solid  rgb(54, 119, 231);
+    border-radius: 50% 50%;
+    text-align: center;
+}
+
+a:hover {
+    color:  wheat;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+    #introdution #theme{
+        font-size: 30px;
+    }
+
+    table {
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 992px) and (min-width: 768px) {
+    #introdution #theme{
+
+        font-size: 20px;
+    }
+    #contents {
+        text-align: unset;
+        padding-right: 10%;
+        margin-left: 0;
+    }
+
+    table {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 768px) {
+
+    #introdution {
+        width: 100%;
+    }
+
+
+    #introdution #theme{
+        left: 0;
+        width: 100%;
+        padding:2% ;
+        font-size: 18px;
+    }
+    .introdution,.speaker,.main2{
+        display: unset;
+    }
+    table {
+        width: 100%;
+    }
+    #contents {
+        font-size: 18px;
+    }
+
+    #contents .organization {
+        font-size: 20px;
+
+    }
+}
+@media screen and (max-width: 992px) and (min-width: 768px) {
+    #introdution #theme{
+
+        font-size: 20px;
+    }
+    #contents {
+        text-align: unset;
+        padding-right: 10%;
+        margin-left: 0;
+    }
+    table {
+        width: 100%;
+    }
+    #contents p:nth-child(1) {
+        font-size: 21px;
+        font-weight: bold;
+    }
+    #contents .organization {
+        font-size: 20px;
+
+    }
+}
+@media screen and (max-width: 375px) {
+
+    #introdution {
+        width: 100%;
+    }
+
+
+
+    #introdution #theme{
+        left: 0;
+        width: 100%;
+        padding:2% ;
+        font-size: 15px;
+    }
+    #contents {
+        font-size: 15px;
+    }
+
+    #contents .organization {
+        font-size: 17px;
+
+    }
+    .introdution,.speaker,.main2{
+        display: unset;
+    }
+    table {
+        width: 100%;
+        padding: 0;
+        font-size: 12px;
+    }
+    tr td:nth-child(1) {
+        width: 34%;
+    }
+    #last-tr {
+        vertical-align: -webkit-baseline-middle
+    }
+
+
+}
+
+
+
