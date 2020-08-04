@@ -132,7 +132,7 @@ a:hover {
     color:  wheat;
 }
 
-@media screen and (max-width: 1200px) and (min-width: 992px) {
+@media screen and (max-width: 1200px) and (min-width: 1000px) {
     #introdution #theme{
         font-size: 15px;
     }
@@ -142,7 +142,7 @@ a:hover {
     }
 
 }
-@media screen and (max-width: 992px) and (min-width: 768px) {
+@media screen and (max-width: 1000px) and (min-width: 768px) {
     #introdution #theme{
         font-size: 15px;
     }
