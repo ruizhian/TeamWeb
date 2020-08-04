@@ -10,8 +10,14 @@
     text-align: center;
     overflow-wrap: break-word;
     border-radius: 5% 5%;
-    font-family: Microsoft Yahei;
+    font-family: 新宋体;
 
+}
+.personnel2{
+    display: none;
+}
+.personnel3{
+    display: none;
 }
 
 #table1{
@@ -93,9 +99,6 @@
     font-size: 15px;
 
 }
-#contents .teacher {
-    font-size: 11.5px;
-}
 
 #buttons {
     position: absolute;
@@ -131,7 +134,7 @@ a:hover {
 
 @media screen and (max-width: 1200px) and (min-width: 992px) {
     #introdution #theme{
-        font-size: 30px;
+        font-size: 15px;
     }
 
     table {
@@ -141,17 +144,25 @@ a:hover {
 }
 @media screen and (max-width: 992px) and (min-width: 768px) {
     #introdution #theme{
-
-        font-size: 20px;
+        font-size: 15px;
     }
     #contents {
         text-align: unset;
         padding-right: 10%;
         margin-left: 0;
+        width: 80%;
+    }
+
+    .personnel1{
+        display: none;
+    }
+
+    .personnel2{
+        display: block;
     }
 
     table {
-        width: 100%;
+        width: 98%;
     }
 }
 @media screen and (max-width: 768px) {
@@ -165,45 +176,30 @@ a:hover {
         left: 0;
         width: 100%;
         padding:2% ;
-        font-size: 18px;
+        font-size: 15px;
     }
     .introdution,.speaker,.main2{
         display: unset;
     }
     table {
-        width: 100%;
+        width: 98%;
     }
     #contents {
         font-size: 15px;
     }
+    .personnel1{
+        display: none;
+    }
+
+    .personnel3{
+        display: block;
+    }
 
     #contents .organization {
-        font-size: 20px;
-
+        font-size: 15px;
     }
 }
-@media screen and (max-width: 992px) and (min-width: 768px) {
-    #introdution #theme{
 
-        font-size: 20px;
-    }
-    #contents {
-        text-align: unset;
-        padding-right: 10%;
-        margin-left: 0;
-    }
-    table {
-        width: 100%;
-    }
-    #contents p:nth-child(1) {
-        font-size: 21px;
-        font-weight: bold;
-    }
-    #contents .organization {
-        font-size: 20px;
-
-    }
-}
 @media screen and (max-width: 375px) {
 
     #introdution {
@@ -223,20 +219,18 @@ a:hover {
     }
 
     #contents .organization {
-        font-size: 17px;
+        font-size: 15px;
 
     }
     .introdution,.speaker,.main2{
         display: unset;
     }
     table {
-        width: 100%;
+        width: 98%;
         padding: 0;
-        font-size: 12px;
+        font-size: 15px;
     }
-    tr td:nth-child(1) {
-        width: 34%;
-    }
+
     #last-tr {
         vertical-align: -webkit-baseline-middle
     }
