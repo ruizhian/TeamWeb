@@ -9,7 +9,8 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
-    background: url(http://pic.616pic.com/bg_w1180/00/00/43/Q4geXkwLDD.jpg!/fw/1120) no-repeat;
+    background: url(https://pixabay.com/get/ge9bb2d6cf45720dadd7243334e81eb7170733bddd231a267b44a41b579f4a6ef5b77d01cee911a083868900559413e6b.jpg?attachment=
+) no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
     color: wheat;
@@ -88,12 +89,12 @@ ul {
 
 .navbar-inverse {
     border: 0 none;
-    background: royalblue none repeat scroll 0 0;
+    background: darkblue none repeat scroll 0 0;
     text-align: center;
 }
 
 .navbar-toggle {
-    background-color: royalblue !important;
+    background-color: darkblue !important;
 }
 
 .navbar {
