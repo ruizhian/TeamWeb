@@ -9,8 +9,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
-    background: url(https://pixabay.com/get/ge9bb2d6cf45720dadd7243334e81eb7170733bddd231a267b44a41b579f4a6ef5b77d01cee911a083868900559413e6b.jpg?attachment=
-) no-repeat;
+    background: url(https://pixabay.com/get/g73871c8b4b0f39babc1847c4edffb22ba5322d9ce63fc69ed0174637b2ba29d9afda5635e9f7f2fa5cb4fe7c18257f52.jpg?attachment=) no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
     color: wheat;
@@ -89,12 +88,12 @@ ul {
 
 .navbar-inverse {
     border: 0 none;
-    background: darkblue none repeat scroll 0 0;
+    background: midnightblue none repeat scroll 0 0;
     text-align: center;
 }
 
 .navbar-toggle {
-    background-color: darkblue !important;
+    background-color: midnightblue !important;
 }
 
 .navbar {
