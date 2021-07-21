@@ -93,7 +93,7 @@ ul {
 }
 
 .navbar-toggle {
-    background-color: #021942 !important;
+    background-color: black !important;
 }
 
 .navbar {
@@ -123,7 +123,7 @@ ul {
 }
 
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
-    color: rgb(81, 125, 207);
+    color: skyblue;
 }
 
 /*-------*/
@@ -157,7 +157,7 @@ ul {
     height: 43px;
     text-align: center;
     border-radius: 50% 50%;
-    border:2px solid rgb(81,125,207);
+    border:2px solid skybulue;
     cursor: pointer;
 }
 
