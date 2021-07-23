@@ -9,8 +9,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
-    background: url(https://ss2.baidu.com/-vo3dSag_xI4khGko9WTAnF6hhy/zhidao/wh%3D450%2C600/sign=81f01545d31b0ef46cbd905ae8f47dec/77c6a7efce1b9d16d8c8c70af2deb48f8c546449.jpg
-) no-repeat;
+    background: url(http://www.manpingou.com/uploads/allimg/190111/25-1Z111141J3W1.jpg) no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
     color: wheat;
@@ -89,12 +88,12 @@ ul {
 
 .navbar-inverse {
     border: 0 none;
-    background: royalblue none repeat scroll 0 0;
+    background: blue none repeat scroll 0 0;
     text-align: center;
 }
 
 .navbar-toggle {
-    background-color: royalblue !important;
+    background-color: blue !important;
 }
 
 .navbar {
