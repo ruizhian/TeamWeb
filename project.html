@@ -47,6 +47,16 @@
 						background-color: skyblue;
 					}
 	</style> -->
+	<style type="text/css">
+	.conference
+	{
+	display:none; /*先将子菜单设置为隐藏*/
+	}
+	li:hover .conference
+	{
+	display:block;             /*设置鼠标滑过动作，以块级元素的形式显示出子菜单*/
+	}
+	</style>
 </head>
     
     <script language=JavaScript>
@@ -110,20 +120,21 @@ date.setTime(date.getTime() - skew)
                                     <li><a href="index.html">
                                     <i class="fa fa-home fa-1x" aria-hidden="true"></i> DFSC</a></li>
                                 <li class="submenu">
-                                    <a href="SHDI Introduction.html">SHDI</a>
-                                </li>
-                                <li class="submenu">
-                                    <a href="SMPC Introduction.html">SMPC</a>
-                                </li>
-                                <li class="submenu">
-                                    <a href="QPQC Introduction.html">QPQC</a>
-                                </li>
-                                <li class="submenu">
-                                    <a href="CSAC Introduction.html">CSAC</a>
-                                </li>
-                                <li class="submenu">
-                                    <a href="CC Introduction.html">CC</a>
-                                </li>
+					<a href=""> conference</a>
+				<div class="dropdown_1column">
+				<!-- <a href="#" class="dropbtn" onclick=""></a> -->
+				<div class="col_1">
+				 <ul class="conference">
+				     <li class="conference"><a href="SHDI Introduction.html">SHDI</a></li>
+				     <li class="conference"><a href="SMPC Introduction.html">SMPC</a></li>
+				     <li class="conference"><a href="QPQC Introduction.html">QPQC</a></li>
+				     <li class="conference"><a href="CSAC Introduction.html">CSAC</a></li>
+				     <li class="conference"><a href="CC Introduction.html">CC</a></li>
+				</ul>
+			</div>
+	           </div>
+	       </li>
+
                                  <li class="submenu">
                                     <a href="courses.html">Courses</a>
                                 </li>
