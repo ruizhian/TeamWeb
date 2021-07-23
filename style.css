@@ -88,12 +88,12 @@ ul {
 
 .navbar-inverse {
     border: 0 none;
-    background: blue none repeat scroll 0 0;
+    background: dodgerblue none repeat scroll 0 0;
     text-align: center;
 }
 
 .navbar-toggle {
-    background-color: blue !important;
+    background-color: dodgerblue !important;
 }
 
 .navbar {
