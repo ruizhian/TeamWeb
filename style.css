@@ -9,7 +9,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
-    background: url(http://www.manpingou.com/uploads/allimg/190111/25-1Z111141J3W1.jpg) no-repeat;
+    background: url(http://file02.16sucai.com/d/file/2014/1201/1008b9f72a58e853ae8159e66b17e0fc.jpg) no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
     color: wheat;
@@ -88,12 +88,12 @@ ul {
 
 .navbar-inverse {
     border: 0 none;
-    background: dodgerblue none repeat scroll 0 0;
+    background: lightskyblue none repeat scroll 0 0;
     text-align: center;
 }
 
 .navbar-toggle {
-    background-color: dodgerblue !important;
+    background-color: lightskyblue !important;
 }
 
 .navbar {
