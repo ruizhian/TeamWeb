@@ -47,7 +47,8 @@
 #register table caption {
     font-size: 21px;
     font-weight: bold;
-    color: wheat;
+    color: black;
+/*     从麦色改到黑色 */
 }
 
 .table{
