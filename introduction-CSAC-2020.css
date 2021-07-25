@@ -41,7 +41,8 @@
     padding-top: 10%;
     width: 80%;
     font-size: 15px;
-    color:wheat;
+    color:black;
+/*     从麦色改为黑色 */
     text-align: left;
     line-height: 20px;
 }
@@ -129,7 +130,8 @@
 }
 
 a:hover {
-    color:  wheat;
+    color:  black;
+/*     从麦色改为黑色 */
 }
 
 @media screen and (max-width: 1200px) and (min-width: 1000px) {
