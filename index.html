@@ -19,6 +19,17 @@
     <link rel="stylesheet" href="style.css"/>
     <link rel="stylesheet" href="introduction.css"/>
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <script>
+	function show(){
+	    var show_part = document.querySelector('.navbar-collapse li ul');
+	    show_part.style.display = 'block';
+	    }
+	function hide(){
+	    var show_part = document.querySelector('.navbar-collapse li ul');
+	    show_part.style.display = 'none';
+	    }
+	 
+	</script>
    <style type="text/css">
 	.navbar-collapse li ul{
 			display:none;
@@ -27,6 +38,7 @@
 			position:absolute;
 			z-index:200;
 			margin:50px;
+		        width:100px;
 			list-style-type: none;
 		        overflow: hidden;
 		}
@@ -85,6 +97,7 @@
                                     <i class="fa fa-home fa-1x" aria-hidden="true"></i> DFSC</a></li>
                              <li class="submenu">
 				<a href=""> Conference</a>
+				     <button onClick="show()"></button>
 				  <ul class="Conference"><i><em></em></i>
 				         <li ><a href="SHDI Introduction.html">SHDI</a></li>
 					 <li ><a href="SMPC Introduction.html">SMPC</a></li>
