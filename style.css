@@ -44,6 +44,13 @@ body {
         font-size: 22px;
     }
 }
+@media screen and (max-width: 1920px) and (min-width: 768px){
+    .navbar-collapse li ul{
+        width: 100%;
+        text-align: center;
+    }
+}
+/* 刚刚修改二级菜单栏 */
 /* @media screen and (max-width: 1200px) and (min-width: 992px) {
     #main {
         width: 100%;
