@@ -9,7 +9,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
-    background: url(https://img1.baidu.com/it/u=1575050147,3047052804&fm=26&fmt=auto&gp=0.jpg) no-repeat;
+/*     background: url(https://img1.baidu.com/it/u=1575050147,3047052804&fm=26&fmt=auto&gp=0.jpg) no-repeat; */
     background-attachment: fixed;
     background-size: 100% 100%;
     color: black; /*字体颜色 */
