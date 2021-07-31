@@ -33,7 +33,7 @@
 	.navbar-collapse li:hover ul{
 			display:block;
 		}
-	 #section1 {
+	 .section1 {
 	          background-color:lightcyan;
 	          color:black;
 	          clear:both;
@@ -45,7 +45,7 @@
 		  text-align: justify;
 /* 		  */
 	}
-	#section2 {
+	.section2 {
 	          background-color:lightcyan;
 	          color:black;
 	          clear:both;
@@ -57,7 +57,7 @@
 		  text-align: justify;
 /* 		 border-color: skyblue; */
 	}
-        #footer {
+        .footer {
 	          background-color:powderblue;
 	          color:black;
 	          clear:both;
@@ -69,6 +69,9 @@
 		 text-align: justify;
 /* 		 border-color: skyblue; */
 	}
+	.removeborder{ 
+		border: none
+		}
 	</style>
 </head>
     
@@ -165,16 +168,16 @@ date.setTime(date.getTime() - skew)
               <div id="theme">
                     <p style="text-align: center;font-size: 20px">Products</p>
 <!--               <hr size='1'> -->
-		<div id="section1">
+		<div class="section1 removeborder">
                     <p style="text-indent:2em ">Fully Homomorphic Encryption, Lattice-based Cryptography, Secure Multi-party Computation，Hardware and Sotware Implementation of Crypto, Difference of Privacy, AI and IoT etc. <br/> 
 		</div>
 <!-- 		    <hr size='1'> -->
-                <div id="section2">
+                <div class="section2 removeborder">
                     <p style="text-indent:2em ">*Fully Homomorphic Encryption Implementation Demo.<br/>                
                      <p style="text-indent:2em ">*Lattice-based Cryptography Implementation Demo<br/>
 		</div>  
 <!-- 	            <hr size='1'> -->
-		<div id="footer">
+		<div class="footer removeborder">
                 <p style="text-indent:2em ">Products Co-operation: ruizhian, Email: ruizhian (#) hotmail (dot) com. <br/>
 		</div> 		
         </div>
