@@ -49,6 +49,17 @@
        #news li{
               line-height:30px;
         }
+	#news1{
+              width:300px;
+              height:100px;
+              margin:20px auto;
+              background-color:#CCC;
+              border:#039 solid 1px;
+              overflow:hidden;/*这里必须设置哦，否则滚动会消失的，如果设置为scroll，更容易明白原理*/
+         }
+       #news1 li{
+              line-height:30px;
+        }
 	</style>
 </head>
     
@@ -145,7 +156,7 @@ var ks=function(){
 			 </td>
 			<td>
 				Research News
-				<div id="news" onmouseover="tz()" onmouseout="ks()">
+				<div id="news1" onmouseover="tz()" onmouseout="ks()">
 <ul id="p1">
 <li><a href="">1这是测试新闻滚动效果</a></li>
 <li><a href="">2这是测试新闻滚动效果</a></li>
@@ -160,7 +171,7 @@ var ks=function(){
 </ul>
 </div>
 <script type="text/javascript">
-var n=document.getElementById("news");
+var n=document.getElementById("news1");
 var p1=document.getElementById("p1");
 var p2=document.getElementById("p2");
 p2.innerHTML=p1.innerHTML;
