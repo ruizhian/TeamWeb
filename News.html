@@ -131,7 +131,7 @@
 	        <td>
 		      Research News
 		   <div id="news1" onmouseover="tz()" onmouseout="ks()">
-                        <ul id="p1">
+                        <ul id="p11">
                             <li><a href="">1这是测试新闻滚动效果</a></li>
                             <li><a href="">2这是测试新闻滚动效果</a></li>
                             <li><a href="">3这是测试新闻滚动效果</a></li>
@@ -141,18 +141,18 @@
                             <li><a href="">7这是测试新闻滚动效果</a></li>
                             <li><a href="">8这是测试新闻滚动效果</a></li>
                       </ul>
-               <ul id="p2">
+               <ul id="p22">
               </ul>
          </div>
                     <script type="text/javascript">
                       var n=document.getElementById("news1");
-                      var p1=document.getElementById("p1");
-                      var p2=document.getElementById("p2");
-                      p2.innerHTML=p1.innerHTML;
+                      var p11=document.getElementById("p11");
+                      var p22=document.getElementById("p22");
+                      p22.innerHTML=p11.innerHTML;
                       //alert(n.offsetHeight+" 1  "+p1.offsetHeight);
                       var f=function(){
                       n.scrollTop++;
-                      if(n.scrollTop>=p1.offsetHeight){
+                      if(n.scrollTop>=p11.offsetHeight){
                       //alert(n.scrollTop+" 1  "+p1.offsetHeight);
                       n.scrollTop=0;
                   }
