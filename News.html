@@ -33,14 +33,9 @@
 	.navbar-collapse li:hover ul{
 			display:block;
 		}
-	*{
-          padding:0;
-          margin:0;
-          border:none;
-         }
         #news{
               width:300px;
-              height:100px;
+              height:200px;
               margin:20px auto;
               background-color:#CCC;
               border:#039 solid 1px;
@@ -51,7 +46,7 @@
         }
 	#news1{
               width:300px;
-              height:100px;
+              height:200px;
               margin:20px auto;
               background-color:#CCC;
               border:#039 solid 1px;
@@ -119,7 +114,7 @@
 			<td>
 				Industrial News
 				<div id="news" onmouseover="tz()" onmouseout="ks()">
-                                    <ul id="p11">
+                                    <ul id="p1">
                                         <li><a href="">1这是测试新闻滚动效果</a></li>
                                         <li><a href="">2这是测试新闻滚动效果</a></li>
                                         <li><a href="">3这是测试新闻滚动效果</a></li>
@@ -129,14 +124,14 @@
                                         <li><a href="">7这是测试新闻滚动效果</a></li>
                                         <li><a href="">8这是测试新闻滚动效果</a></li>
                                   </ul>
-                                  <ul id="p22">
+                                  <ul id="p2">
                                   </ul>
                               </div>
                        <script type="text/javascript">
                           var n=document.getElementById("news");
-                          var p11=document.getElementById("p11");
-                          var p22=document.getElementById("p22");
-                          p22.innerHTML=p11.innerHTML;
+                          var p1=document.getElementById("p1");
+                          var p2=document.getElementById("p2");
+                          p2.innerHTML=p1.innerHTML;
                           //alert(n.offsetHeight+" 1  "+p1.offsetHeight);
                          var f=function(){
                         n.scrollTop++;
