@@ -123,67 +123,70 @@
                                         <li><a href="" style="width: 50px; font-size: 15px;">6这是测试新闻滚动效果</a></li>
                                         <li><a href="" style="width: 50px; font-size: 15px;">7这是测试新闻滚动效果</a></li>
                                         <li><a href="" style="width: 50px; font-size: 15px;">8这是测试新闻滚动效果</a></li>
-                                  </ul>                                  
-                              </div>
-				
+                                  </ul>  
+								<ul id="p22">
+								              </ul>
+                              </div>                     
 	 </td>
-	        <td>
-		      Research News
-		   <div id="news1" onmouseover="tz()" onmouseout="ks()">
-                        <ul id="p11">
-                            <li><a href="" style="width: 50px; font-size: 15px;">1这是测试新闻滚动效果</a></li>
-                            <li><a href="" style="width: 50px; font-size: 15px;">2这是测试新闻滚动效果</a></li>
-                            <li><a href="" style="width: 50px; font-size: 15px;">3这是测试新闻滚动效果</a></li>
-                            <li><a hre="" style="width: 50px; font-size: 15px;">4这是测试新闻滚动效果</a></li>
-                            <li><a href="" style="width: 50px; font-size: 15px;">5这是测试新闻滚动效果</a></li>
-                            <li><a href="" style="width: 50px; font-size: 15px;">6这是测试新闻滚动效果</a></li>
-                            <li><a href="" style="width: 50px; font-size: 15px;">7这是测试新闻滚动效果</a></li>
-                            <li><a href="" style="width: 50px; font-size: 15px;">8这是测试新闻滚动效果</a></li>
-                      </ul>
-               <ul id="p22">
-              </ul>
-         </div>
-                    <script type="text/javascript">
-			    var n=document.getElementById("news");
-                      var p1=document.getElementById("p1");
-                      var p2=document.getElementById("p2");
-			    p2.innerHTML=p1.innerHTML;
-                      //alert(n.offsetHeight+" 1  "+p1.offsetHeight);
-                      var f=function(){
-                      n.scrollTop++;
-                      if(n.scrollTop>=p1.offsetHeight){
-                      //alert(n.scrollTop+" 1  "+p1.offsetHeight);
-                      n.scrollTop=0;
-                  }
-              }
-                     var i=setInterval(f,20);
-                     var tz=function(){
-                     clearInterval(i);
-               }
-                    var ks=function(){
-                    i=setInterval(f,20);
-           }
-                      var n=document.getElementById("news1");
-                      var p11=document.getElementById("p11");
-                      var p22=document.getElementById("p22");
-                      p22.innerHTML=p11.innerHTML;
-                      //alert(n.offsetHeight+" 1  "+p1.offsetHeight);
-                      var f=function(){
-                      n.scrollTop++;
-                      if(n.scrollTop>=p11.offsetHeight){
-                      //alert(n.scrollTop+" 1  "+p1.offsetHeight);
-                      n.scrollTop=0;
-                  }
-              }
-                     var i=setInterval(f,20);
-                     var tz=function(){
-                     clearInterval(i);
-               }
-                    var ks=function(){
-                    i=setInterval(f,20);
-           }
-          </script>
-	</td>
+	 <td>
+	 				Research News
+	 				<div id="news1" onmouseover="tz()" onmouseout="ks()">
+	                                <ul id="p11">
+	                                    <li><a href="" style="width: 50px; font-size: 15px;">1这是测试新闻滚动效果</a></li>
+	                                    <li><a href="" style="width: 50px; font-size: 15px;">2这是测试新闻滚动效果</a></li>
+	                                    <li><a href="" style="width: 50px; font-size: 15px;">3这是测试新闻滚动效果</a></li>
+	                                    <li><a href="" style="width: 50px; font-size: 15px;">4这是测试新闻滚动效果</a></li>
+	                                    <li><a href="" style="width: 50px; font-size: 15px;">5这是测试新闻滚动效果</a></li>
+	                                    <li><a href="" style="width: 50px; font-size: 15px;">6这是测试新闻滚动效果</a></li>
+	                                    <li><a href="" style="width: 50px; font-size: 15px;">7这是测试新闻滚动效果</a></li>
+	                                    <li><a href="" style="width: 50px; font-size: 15px;">8这是测试新闻滚动效果</a></li>
+	                              </ul>   
+								<ul id="p22">
+								              </ul>
+	                          </div>
+	                   <script type="text/javascript">
+						   var n=document.getElementById("news");
+						   var p1=document.getElementById("p1"); 
+						   var p2=document.getElementById("p2");
+	                       // p2.innerHTML=p1.innerHTML;
+	                       //alert(n.offsetHeight+" 1  "+p1.offsetHeight);
+	                     var f=function(){
+							 n.scrollTop++;
+							  if(n.scrollTop>=p1.offsetHeight){
+							  //alert(n.scrollTop+" 1  "+p1.offsetHeight);
+							 n.scrollTop=0;
+	                    
+	                 }
+	             }
+	           var i=setInterval(f,20);
+	           var tz=function(){
+	          clearInterval(i);
+	      }
+	           var ks=function(){
+	           i=setInterval(f,20);
+	    }
+		var n1=document.getElementById("news1");
+						   var p11=document.getElementById("p11"); 
+						   var p22=document.getElementById("p22");
+		                   // p22.innerHTML=p11.innerHTML;
+		                                         //alert(n.offsetHeight+" 1  "+p1.offsetHeight);
+		                 var f=function(){
+							 n1.scrollTop++;
+							  if(n1.scrollTop>=p11.offsetHeight){
+							  //alert(n.scrollTop+" 1  "+p1.offsetHeight);
+							 n1.scrollTop=0;
+		                
+		             }
+		         }
+		       var i=setInterval(f,20);
+		       var tz=function(){
+		      clearInterval(i);
+		  }
+		       var ks=function(){
+		       i=setInterval(f,20);
+		}
+	  </script>
+	 </td>
 </tr>	
 		    <script type="text/javascript">
 		    function googleTranslateElementInit() {
