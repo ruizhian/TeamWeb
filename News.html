@@ -144,7 +144,7 @@
 	                </td>
 	                <td>
 	 		     Research News
-	 		         <div id="news1" onmouseover="tz()" onmouseout="ks()">
+	 		         <div id="news1" onmouseover="tz1()" onmouseout="ks1()">
                                       <ul id="p11">
                                           <li><a href="" style="width: 50px; font-size: 15px;">1这是测试新闻滚动效果</a></li>
                                           <li><a href="" style="width: 50px; font-size: 15px;">2这是测试新闻滚动效果</a></li>
@@ -183,19 +183,19 @@ var p11=document.getElementById("p11");
 var p22=document.getElementById("p22");
 p22.innerHTML=p11.innerHTML;
 //alert(n.offsetHeight+" 1  "+p1.offsetHeight);
-var f=function(){
+var f1=function(){
     n1.scrollTop++;
     if(n1.scrollTop>=p11.offsetHeight){
         //alert(n.scrollTop+" 1  "+p1.offsetHeight);
         n1.scrollTop=0;
     }
 }
-var i1=setInterval(f,20);
-var tz=function(){
+var i1=setInterval(f1,20);
+var tz1=function(){
     clearInterval(i1);
 }
-var ks=function(){
-    i1=setInterval(f,20);
+var ks1=function(){
+    i1=setInterval(f1,20);
 }
 </script>
 	 </td>
