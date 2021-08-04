@@ -38,13 +38,23 @@
                        margin:0;
                        border:none;
           }
+		  table{
+		  	/* width: 300px;
+		  	height:150px; */
+		  	border: 0;
+		  	margin-left:20%;
+		  	font-family:宋体;
+		  	color:forestgreen;
+		  	font-size:18px;
+		  }
          #news{
                        width:300px;
                        height:200px;
-                       margin:20px auto;
+                       margin:30px 0;
                        background-color:#CCC;
                        border:#039 solid 1px;
                        overflow:hidden;
+					   text-align: left;
               }
           #news li{
                        line-height:30px;
@@ -52,7 +62,7 @@
           #news1{
                        width:300px;
                        height:200px;
-                       margin:20px auto;
+                       margin:30px 0;
                        background-color:#CCC;
                        border:#039 solid 1px;
                        overflow:hidden;
@@ -60,6 +70,14 @@
          #news1 li{
                        line-height:30px;
                   }
+		#section{
+			width:300px;
+			height:200px;
+			margin:30px 5px;
+			background-color:#CCC;
+			border:#039 solid 1px;
+			overflow:hidden;
+		}
         .footer1{
 		       margin-top: 60px;	
 	        }
@@ -124,9 +142,10 @@
             <div class="introdution">
                 <div id="theme">
                     <p style="text-align: center;font-size: 20px">News</p>
+					<table>
                      <tr>
 			<td>
-			     Industrial News
+			     <p>Industrial News</p>
 				<div id="news" onmouseover="tz()" onmouseout="ks()">
                                      <ul id="p1">
                                          <li><a href="" style="width: 50%; font-size: 15px;">1这是测试新闻滚动效果</a></li>
@@ -143,21 +162,43 @@
                                </div>                 
 	                </td>
 	                <td>
-	 		     Research News
-	 		         <div id="news1" onmouseover="tz1()" onmouseout="ks1()">
-                                      <ul id="p11">
-                                          <li><a href="" style="width: 50%; font-size: 15px;">1这是测试新闻滚动效果</a></li>
-                                          <li><a href="" style="width: 50%; font-size: 15px;">2这是测试新闻滚动效果</a></li>
-                                          <li><a href="" style="width: 50%; font-size: 15px;">3这是测试新闻滚动效果</a></li>
-                                          <li><a href="" style="width: 50%; font-size: 15px;">4这是测试新闻滚动效果</a></li>
-                                          <li><a href="" style="width: 50%; font-size: 15px;">5这是测试新闻滚动效果</a></li>
-                                          <li><a href="" style="width: 50%; font-size: 15px;">6这是测试新闻滚动效果</a></li>
-                                          <li><a href="" style="width: 50%; font-size: 15px;">7这是测试新闻滚动效果</a></li>
-                                          <li><a href="" style="width: 50%; font-size: 15px;">8这是测试新闻滚动效果</a></li>
-                                      </ul>
-                                      <ul id="p22">
-                                      </ul>
-                                </div>
+						<p>新闻列表</p>
+						<div id="section" onmouseover="tz2()" onmouseout="ks2()">
+							<ul id="p12">
+							<li><a href="" style="width: 50%; font-size: 15px;">1这里是新闻列表</a></li>
+							<li><a href="" style="width: 50%; font-size: 15px;">2这里是新闻列表</a></li>
+							<li><a href="" style="width: 50%; font-size: 15px;">3这里是新闻列表</a></li>
+							<li><a href="" style="width: 50%; font-size: 15px;">4这里是新闻列表</a></li>
+							<li><a href="" style="width: 50%; font-size: 15px;">5这里是新闻列表</a></li>
+							<li><a href="" style="width: 50%; font-size: 15px;">6这里是新闻列表</a></li>
+							</ul>
+							<ul id="p21">
+							</ul>
+						</div>
+							</td>
+							</tr>
+							<tr>
+								<td>
+									<p>Research News</p>
+									    <div id="news1" onmouseover="tz1()" onmouseout="ks1()">
+									                     <ul id="p11">
+									                         <li><a href="" style="width: 50%; font-size: 15px;">1这是测试新闻滚动效果</a></li>
+									                         <li><a href="" style="width: 50%; font-size: 15px;">2这是测试新闻滚动效果</a></li>
+									                         <li><a href="" style="width: 50%; font-size: 15px;">3这是测试新闻滚动效果</a></li>
+									                         <li><a href="" style="width: 50%; font-size: 15px;">4这是测试新闻滚动效果</a></li>
+									                         <li><a href="" style="width: 50%; font-size: 15px;">5这是测试新闻滚动效果</a></li>
+									                         <li><a href="" style="width: 50%; font-size: 15px;">6这是测试新闻滚动效果</a></li>
+									                         <li><a href="" style="width: 50%; font-size: 15px;">7这是测试新闻滚动效果</a></li>
+									                         <li><a href="" style="width: 50%; font-size: 15px;">8这是测试新闻滚动效果</a></li>
+									                     </ul>
+									                     <ul id="p22">
+									                     </ul>
+									               </div>
+								</td>
+							<td>
+							</td>
+							</tr>
+							</table>
 <script type="text/javascript">
 var n=document.getElementById("news");
 var p1=document.getElementById("p1");
@@ -196,6 +237,25 @@ var tz1=function(){
 }
 var ks1=function(){
     i1=setInterval(f1,20);
+}
+var n2=document.getElementById("section");
+var p12=document.getElementById("p12");
+var p21=document.getElementById("p21");
+p21.innerHTML=p12.innerHTML;
+//alert(n.offsetHeight+" 1  "+p1.offsetHeight);
+var f2=function(){
+    n2.scrollTop++;
+    if(n2.scrollTop>=p12.offsetHeight){
+        //alert(n.scrollTop+" 1  "+p1.offsetHeight);
+        n2.scrollTop=0;
+    }
+}
+var i2=setInterval(f2,20);
+var tz2=function(){
+    clearInterval(i2);
+}
+var ks2=function(){
+    i2=setInterval(f2,20);
 }
 </script>
 	 </td>
