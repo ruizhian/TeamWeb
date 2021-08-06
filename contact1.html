@@ -1,81 +1,214 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8" />
-		<title></title>
-	</head>
-	<body>
-		<h1 align="center"><strong><font size="10">联系我们</font></strong></h1><br>
-		<form  action="https://formspree.io/f/xyylnwvp" method="POST">
-			<table border="0" style="margin:0 auto;">				
-				<tr>
-					<td>名:</td>
-					<td>姓:</td>
-				</tr>
-				<tr>
-					<td><input type="text" name="名" style="width: 160px;height: 20px;"></td>
-					<td><input type="text" name="姓" style="width: 405px;height: 20px;"></td>
-				</tr>
-				<tr>
-								<td>邮箱</td>
-							</tr>
-							<tr>
-								<td colspan=2 >
-									<input type="text" name="Company Email" style="width: 600px;height: 20px;">
-								</td>
-							</tr>
-							<tr>
-								<td>单位名称</td>
-							</tr>
-							<tr>
-								<td colspan="2">
-									<input type="text" name="Company name" style="width: 600px;height: 20px;">
-								</td>
-							</tr>
-							<tr>
-								<td>联系我们的原因</td>
-							</tr>
-							<tr>
-								<td colspan="2">
-									<input type="text" name="Reason for contacting us" style="width: 600px;height: 20px;">
-								</td>
-							</tr>						
-							<tr>
-								<td>信息</td>
-							</tr>
-							<tr >
-								<td colspan="2" >
-									<textarea rows="8" cols="88"></textarea>
-								</td>
-							</tr>                           
-							<tr>
-								<td colspan="2" style="width: 600px;">					
-									DFSC中心致力于保护和尊重您的隐私，我们只会使用您的个人信息管理您的账户，并提供您要求我们提供的产品和服务。我们希望随时与您联系我们的产品和服务，以及您可能感兴趣的其他内容。如果您同意我们为此目的与您联系，请在下面打勾，说明您希望我们如何与您联系:
-								</td>
-							</tr>
-							<tr>
-								<td colspan="2" style="width:600px;">
-									<label for="huiyuan"></label><input type="checkbox" name="huiyuan" id="huiyuan">本人同意接收DFSC中心的其他通讯。
-								</td>
-							</tr>
-							<tr>
-							<td colspan="2" style="width: 600px;">
-                为了向您提供所要求的内容，我们需要存储和处理您的个人数据。如果您同意我们为此目的储存您的个人资料，请在下面的复选框内打勾。
-                </td>
-							</tr>
-							<tr>
-								<td colspan="2" style="width: 600px;">
-									<label for="huiyuan"></label><input type="checkbox" name="huiyuan" id="huiyuan">本人同意DFSC中心存储和处理我的个人资料。
-                </td>
-							</tr>
-							<tr>
-							<td colspan="2" style="width: 600px;">
-                你可以在任何时候取消订阅这些通讯。欲了解更多关于如何取消订阅、我们的隐私做法以及我们如何致力于保护和尊重您的隐私的信息，请参阅我们的隐私政策。
-                </td>
-							</tr>
-							<tr>
-								<td><input type="submit" value="提交" ></td>
-							</tr>
-		</form> 
-	</body>
-<html>
+<html lang="zh-CN" >
+<meta name="google-translate-customization" content="108d9124921d80c3-80e20d618ff053c8-g4f02ec6f3dba68b7-c"></meta>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale= 1.0 maximum-scale=1.0 user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    -->
+    <script src="https://cdn.bootcss.com/jquery/2.2.1/jquery.min.js"></script>
+    <link href="https://cdn.bootcss.com/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css" media="screen" >
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <title>Digital Future Research Center</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="introduction.css"/>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+	.navbar-collapse li ul{
+			display:none;
+			height:auto;
+			width: auto;
+			position:absolute;
+			width:100px;
+			z-index:200;
+			margin:0px;
+			list-style-type: none;
+		}
+	.navbar-collapse li:hover ul{
+			display:block;
+		}
+	.section1 {
+	        background-color:aliceblue;
+	        color:black;
+	        clear:both;
+	        text-align:center;
+	        padding:5px; 
+		border-style: groove;		
+		border-radius: 20px;
+		text-align: justify;
+/* 		border-color: skyblue; */
+/* 		margin-top: 30px; */
+	}
+	.section2 {
+	        background-color:aliceblue;
+	        color:black;
+	        clear:both;
+	        text-align:center;
+	        padding:5px; 
+		border-style: groove;		
+		border-radius: 20px;
+		margin-top: 10px;
+		text-align: justify;
+/* 		border-color: skyblue; */
+	}
+	.footer1 {
+		margin-top: 40px;
+		}
+	.footer2 {
+		text-align:center;
+		margin-top: 10px;
+		}
+	.section {
+		text-align:center;
+		margin-top: 10px;
+		}
+	.removeborder{ 
+		border: none
+		}
+	</style>
+</head>
+    
+     
+<body>
+    <div >
+        <div id="head">
+            <header style="min-height: 76px;">
+                <nav id="main-nav" class="navbar navbar-inverse" role="navigation">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                                <span class="sr-only">切换导航</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <!--   <a class="navbar-brand" href="index.html"><img alt="安全多方计算国际论坛-2019" src="image/logo.png"></a> -->
+                        </div>
+                        <div id="navbar-collapse" class="collapse navbar-collapse">
+                           <ul class="nav navbar-nav navbar-center">
+                                    <li><a href="index.html">
+                                    <i class="fa fa-home fa-1x" aria-hidden="true"></i> DFSC</a></li>
+                                <li class="submenu">
+                                    <a href="News.html">News</a>
+                                </li>
+                                <li class="submenu">
+				<a href="Conference.html">Conferences</a>
+				  <ul class="Conferences"><i><em></em></i>
+				         <li ><a href="SHDI Introduction.html">SHDI</a></li>
+					 <li ><a href="SMPC Introduction.html">SMPC</a></li>
+					<li ><a href="QPQC Introduction.html">QPQC</a></li>
+					<li ><a href="CSAC Introduction.html">CSAC</a></li>
+					<li ><a href="CC Introduction.html">CC</a></li>
+				</ul>
+			</li>
+                                 <li class="submenu">
+                                    <a href="Training-Camp.html">Training Camp</a>
+                                </li>
+                                <li class="submenu">
+                                    <a href="project.html">Projects</a>
+                                </li>
+                                <li class="submenu">
+                                    <a href="product.html">Products</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+
+            <div id = "introdution">
+            <div class="introdution">
+                <div id="theme">
+                  <h1 align="center"><strong><font size="10">联系我们</font></strong></h1><br>
+                  <form  action="https://formspree.io/f/xyylnwvp" method="POST">
+                  	<table border="0" style="margin:0 auto;">				
+                  		<tr>
+                  			<td>名:</td>
+                  			<td>姓:</td>
+                  		</tr>
+                  		<tr>
+                  			<td><input type="text" name="名" style="width: 160px;height: 20px;"></td>
+                  			<td><input type="text" name="姓" style="width: 405px;height: 20px;"></td>
+                  		</tr>
+                  		<tr>
+                  						<td>邮箱</td>
+                  					</tr>
+                  					<tr>
+                  						<td colspan=2 >
+                  							<input type="text" name="Company Email" style="width: 600px;height: 20px;">
+                  						</td>
+                  					</tr>
+                  					<tr>
+                  						<td>单位名称</td>
+                  					</tr>
+                  					<tr>
+                  						<td colspan="2">
+                  							<input type="text" name="Company name" style="width: 600px;height: 20px;">
+                  						</td>
+                  					</tr>
+                  					<tr>
+                  						<td>联系我们的原因</td>
+                  					</tr>
+                  					<tr>
+                  						<td colspan="2">
+                  							<input type="text" name="Reason for contacting us" style="width: 600px;height: 20px;">
+                  						</td>
+                  					</tr>						
+                  					<tr>
+                  						<td>信息</td>
+                  					</tr>
+                  					<tr >
+                  						<td colspan="2" >
+                  							<textarea rows="8" cols="88"></textarea>
+                  						</td>
+                  					</tr>                           
+                  					<tr>
+                  						<td colspan="2" style="width: 600px;">					
+                  							DFSC中心致力于保护和尊重您的隐私，我们只会使用您的个人信息管理您的账户，并提供您要求我们提供的产品和服务。我们希望随时与您联系我们的产品和服务，以及您可能感兴趣的其他内容。如果您同意我们为此目的与您联系，请在下面打勾，说明您希望我们如何与您联系:
+                  						</td>
+                  					</tr>
+                  					<tr>
+                  						<td colspan="2" style="width:600px;">
+                  							<label for="huiyuan"></label><input type="checkbox" name="huiyuan" id="huiyuan">本人同意接收DFSC中心的其他通讯。
+                  						</td>
+                  					</tr>
+                  					<tr>
+                  					<td colspan="2" style="width: 600px;">
+                          为了向您提供所要求的内容，我们需要存储和处理您的个人数据。如果您同意我们为此目的储存您的个人资料，请在下面的复选框内打勾。
+                          </td>
+                  					</tr>
+                  					<tr>
+                  						<td colspan="2" style="width: 600px;">
+                  							<label for="huiyuan"></label><input type="checkbox" name="huiyuan" id="huiyuan">本人同意DFSC中心存储和处理我的个人资料。
+                          </td>
+                  					</tr>
+                  					<tr>
+                  					<td colspan="2" style="width: 600px;">
+                          你可以在任何时候取消订阅这些通讯。欲了解更多关于如何取消订阅、我们的隐私做法以及我们如何致力于保护和尊重您的隐私的信息，请参阅我们的隐私政策。
+                          </td>
+                  					</tr>
+                  					<tr>
+                  						<td><input type="submit" value="提交" ></td>
+                  					</tr>
+                  </form> 
+		    </table>
+                    <div class="footer1 removeborder">
+		    <p style="text-align:center"><img  src="image/DFSC CENTERlogo.png " style="width:18%; height:18%;" height:80px;></a> <br/>
+                    </div>
+		    <div class="footer2 removeborder">
+			 <p style="text-align:center"><strong>©2016 DFSC Center</strong></a> <br/>   
+                    </div>                   
+        </div>
+<script type="text/javascript">
+function googleTranslateElementInit() {
+new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"> </script>
+</body>
+</html>
