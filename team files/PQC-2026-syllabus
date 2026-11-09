@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2027（冬季）后量子密码及其应用训练营通知</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --accent-color: #8e44ad;
+            --bg-color: #f8f9fa;
+            --text-color: #333;
+            --card-bg: #ffffff;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, 'Microsoft YaHei', sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: var(--card-bg);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+            padding: 40px 50px;
+        }
+
+        /* 头部样式 */
+        .header {
+            text-align: center;
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            color: var(--primary-color);
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+        .header h2 {
+            color: var(--secondary-color);
+            font-size: 18px;
+            font-weight: 500;
+            margin-top: 0;
+        }
+
+        .logos {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin: 20px 0;
+            font-weight: bold;
+            font-size: 24px;
+            color: #555;
+        }
+        
+        .logo-placeholder {
+            padding: 10px 20px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            display: inline-block;
+        }
+
+        .logo-dfsc { color: #333; }
+        .logo-lemomate { color: var(--accent-color); }
+
+        /* 内容区块样式 */
+        section {
+            margin-bottom: 35px;
+        }
+
+        h2.section-title {
+            color: var(--primary-color);
+            font-size: 22px;
+            border-left: 5px solid var(--secondary-color);
+            padding-left: 15px;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            color: var(--secondary-color);
+            font-size: 18px;
+            margin-top: 25px;
+        }
+
+        p, li {
+            font-size: 15px;
+            color: #444;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .highlight {
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+
+        /* 特殊卡片样式 */
+        .notice-card {
+            background-color: #eef7fd;
+            border-left: 4px solid var(--secondary-color);
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 0 4px 4px 0;
+        }
+
+        .info-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .info-box {
+            background: #f9f9f9;
+            padding: 15px;
+            border-radius: 6px;
+            border: 1px solid #eee;
+        }
+
+        /* 表格样式 */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 14px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px 15px;
+            text-align: left;
+        }
+
+        th {
+            background-color: var(--primary-color);
+            color: white;
+            font-weight: 500;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        /* 缴费与印章区域 */
+        .payment-info {
+            background-color: #fdf6f6;
+            border: 1px dashed #e74c3c;
+            padding: 20px;
+            border-radius: 6px;
+            position: relative;
+        }
+
+        .stamp {
+            text-align: right;
+            margin-top: 20px;
+            color: #e74c3c;
+            font-weight: bold;
+            font-size: 18px;
+            border: 3px solid #e74c3c;
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 50%;
+            transform: rotate(-10deg);
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            font-size: 13px;
+            color: #888;
+        }
+
+        .qr-placeholder {
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            background-color: #eee;
+            border: 1px solid #ccc;
+            text-align: center;
+            line-height: 100px;
+            color: #999;
+            font-size: 12px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- 头部区域 -->
+    <header class="header">
+        <h1>2027（冬季）后量子密码及其应用训练营通知</h1>
+        <h2>数学前沿·密码安全·量子防御</h2>
+        
+        <div class="logos">
+            <div class="logo-placeholder logo-dfsc">DFSC<br><span style="font-size:12px; font-weight:normal;">Digital Future Research Center</span></div>
+            <div class="logo-placeholder logo-lemomate">Lemomate AI</div>
+        </div>
+        
+        <div class="notice-card">
+            <strong>限定100人</strong> | 开营时间：2027年01月04日（北京时间）
+        </div>
+    </header>
+
+    <!-- 课程目标 -->
+    <section>
+        <h2 class="section-title">课程目标</h2>
+        <h3>·为什么开设此课程？</h3>
+        <p>随着量子计算机硬件的快速演进，传统基于大整数分解（RSA）和离散对数（ECC）的公钥密码体系面临崩溃风险。为了应对“现在截获，未来解密”（Harvest Now, Decrypt Later）的威胁，全球正加速向后量子密码（Post-Quantum Cryptography，PQC）迁移。掌握格密码、多变量密码等新型数学原语及其在工业界的应用，已成为下一代网络安全专家的核心竞争力。</p>
+        
+        <ul>
+            <li><strong>PQC数学基础：</strong>深度掌握格密码（Lattice-based）、编码密码（Code-based）及多变量密码等后量子算法的数学原理。</li>
+            <li><strong>标准与实现：</strong>系统学习NIST PQC标准化进程（如ML-KEM, ML-DSA），掌握高效的算法实现与优化技巧。</li>
+            <li><strong>应用与迁移实战：</strong>通过构建“量子安全通信链路”等真实项目，实现从传统密码到PQC的平滑迁移与混合部署。</li>
+            <li><strong>认证凭证：</strong>所有参训学员将获得《后量子密码及其应用训练营参加证明》，记录学习模块与实战项目，作为专业进修凭证。</li>
+        </ul>
+    </section>
+
+    <!-- 课程定位与适合人群 -->
+    <section>
+        <h2 class="section-title">从经典密码到量子安全架构师</h2>
+        <p><strong>4周深度实战 | PQC原理 | 标准实现 | 迁移部署</strong></p>
+        
+        <div class="info-grid">
+            <div class="info-box">
+                <h3>课程定位</h3>
+                <ul style="padding-left: 15px; margin-top: 10px;">
+                    <li>面向希望应对量子威胁、构建量子安全系统的开发者与密码研究员</li>
+                    <li>深度融合数学理论（50%）与工程实现（50%）的前沿课程</li>
+                    <li>系统掌握LWE/RLWE问题、NIST PQC标准、混合加密方案、量子安全迁移策略</li>
+                </ul>
+            </div>
+            <div class="info-box">
+                <h3>谁适合参加</h3>
+                <ul style="padding-left: 15px; margin-top: 10px;">
+                    <li><strong>学术群体：</strong>希望探索PQC前沿算法与复杂度分析的数学、计算机专业学生。</li>
+                    <li><strong>研发人员：</strong>希望将现有加密系统升级为量子安全版本、研究加密性能优化的软件工程师。</li>
+                    <li><strong>教育工作者：</strong>关注网络安全前沿、希望将后量子密码引入课程体系的青年教师。</li>
+                    <li><strong>安全专家：</strong>致力于构建量子时代防御体系、研究加密迁移路径的安全架构师。</li>
+                    <li><strong>密码爱好者：</strong>对现代数论与格理论感兴趣，希望通过实战掌握PQC部署流程的开发者。</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- 授课安排与实战路径 -->
+    <section>
+        <h2 class="section-title">线上课程，晚间实战</h2>
+        <p><strong>每周4次 | 每周12小时 | 总计48小时</strong><br>
+        全程线上授课 | 每周一至周四 19:00-22:00（北京时间） | 2027/01/04 - 2027/01/31</p>
+
+        <h3>4周极速实战路径</h3>
+        <ul>
+            <li><strong>W1 PQC 数学基石：</strong>格理论基础、LWE/RLWE问题、最短向量问题（SVP）、学习误差问题的安全性分析</li>
+            <li><strong>W2 NIST 标准与算法：</strong>ML-KEM（Kyber）深度解析、ML-DSA（Dilithium）签名机制、算法参数选择与性能权衡</li>
+            <li><strong>W3 工程实现与优化：</strong>常数时间实现（Constant-time）、NTT 快速数论变换、内存优化与硬件加速基础</li>
+            <li><strong>W4 迁移部署与混合模式：</strong>经典-量子混合方案（Hybrid Mode）、TLS/SSH 协议升级、量子安全链路实战部署</li>
+            <li><strong>实战：</strong>独立完成一个“量子安全端到端加密通信系统”从算法选型到部署的完整闭环</li>
+        </ul>
+    </section>
+
+    <!-- 理论与技能模块 -->
+    <section>
+        <h2 class="section-title">知识与技能模块</h2>
+        
+        <div class="notice-card" style="background-color: #f4f6f8;">
+            <strong>理论分析实战（50%）</strong> | <strong>工程实现实战（50%）</strong><br>
+            <span style="font-size: 14px;">W1：格基规约模拟 | LWE参数分析 | 安全强度评估<br>W2-W4：ML-KEM实现 | 混合加密协议开发 | 协议迁移压力测试 | 量子安全链路部署</span>
+        </div>
+
+        <h3>·PQC核心数学理论：</h3>
+        <ul>
+            <li><strong>格密码学：</strong>深度掌握 \(\mathbb{Z}^n\) 格、基规约算法（LLL/BKZ）、学习误差问题（LWE）及其变体。</li>
+            <li><strong>多项式环：</strong>掌握环上学习误差（RLWE）与模式学习误差（MLWE）的数学结构与效率优势。</li>
+            <li><strong>复杂度分析：</strong>学习如何量化PQC算法对抗经典攻击与量子攻击（如Shor算法）的安全强度。</li>
+        </ul>
+
+        <h3>·NIST标准算法实现：</h3>
+        <ul>
+            <li><strong>密钥封装机制（KEM）：</strong>实现ML-KEM流程，掌握公钥生成、封装与解封装的完整链路。</li>
+            <li><strong>数字签名（DSA）：</strong>实现ML-DSA签名方案，理解Fiat-Shamir变换与拒绝采样机制。</li>
+            <li><strong>算法优化：</strong>利用数论变换（NTT）加速多项式乘法，提升加密/解密吞吐量。</li>
+        </ul>
+
+        <h3>·量子安全迁移策略：</h3>
+        <ul>
+            <li><strong>混合加密（Hybrid）：</strong>设计同时使用经典（ECC/RSA）与PQC算法的组合方案，确保过渡期安全性。</li>
+            <li><strong>协议适配：</strong>分析PQC对现有网络协议（TLS1.3, IKEv2）的影响（如密钥长度增加带来的分片问题）。</li>
+            <li><strong>迁移路线图：</strong>构建企业级密码迁移计划，实现从传统基础设施到量子安全架构的平滑升级。</li>
+        </ul>
+
+        <h3>·工程化与安全性验证：</h3>
+        <ul>
+            <li><strong>侧信道防御：</strong>学习防止计时攻击与功耗分析的常数时间编程技巧。</li>
+            <li><strong>验证体系：</strong>使用已知答案测试（KAT）验证实现正确性，进行性能基准测试。</li>
+            <li><strong>部署方案：</strong>基于OpenSSL PQC插件或自定义库实现量子安全通信链路。</li>
+        </ul>
+    </section>
+
+    <!-- 授课形式与注册费 -->
+    <section>
+        <h2 class="section-title">授课形式与注册费</h2>
+        
+        <h3>·授课形式：</h3>
+        <ul>
+            <li><strong>直播授课：</strong>讲师实时讲解数学原理与实现代码，支持实时互动答疑；</li>
+            <li><strong>视频回放：</strong>全程录播并生成回放链接，方便学员按需复习与巩固；</li>
+            <li><strong>配套材料：</strong>提供数学推导讲义、C/Python示例代码与PQC标准文档清单。</li>
+            <li><strong>实践说明：</strong>本课程专注于防御机制的构建与实现，旨在培养学员在量子时代保障数据安全的能力。</li>
+        </ul>
+
+        <h3>·注册费标准：</h3>
+        <p>本次训练营注册费为<strong>￥9,800／人</strong>。为鼓励团队协作与学习交流，特设阶梯优惠，具体标准如下：</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>优惠类型</th>
+                    <th>适用条件</th>
+                    <th>优惠幅度</th>
+                    <th>折后单价（元）</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>标准报名</td>
+                    <td>个人申报</td>
+                    <td>—</td>
+                    <td>9,800</td>
+                </tr>
+                <tr>
+                    <td>企业团队</td>
+                    <td>企业团队 3 人及以上</td>
+                    <td>10% off</td>
+                    <td>8,820</td>
+                </tr>
+                <tr>
+                    <td>研究生个人</td>
+                    <td>在校研究生个人报名</td>
+                    <td>10% off</td>
+                    <td>8,820</td>
+                </tr>
+                <tr>
+                    <td>研究生团队</td>
+                    <td>研究生团队 3 人及以上</td>
+                    <td>20% off</td>
+                    <td>7,840</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- 报名咨询与缴费 -->
+    <section>
+        <h2 class="section-title">报名咨询与缴费账户信息</h2>
+        
+        <div class="info-grid">
+            <div class="info-box">
+                <h3>·报名咨询</h3>
+                <ul style="list-style: none; padding-left: 0;">
+                    <li>报名时间：<strong>2026年10月16日起正式开启</strong></li>
+                    <li>电子邮箱：ruizhian@hotmail.com</li>
+                    <li>微信：smoothtouch</li>
+                </ul>
+                <div>
+                    <div class="qr-placeholder">二维码占位</div>
+                    <div class="qr-placeholder">二维码占位</div>
+                </div>
+                <p style="font-size: 12px; color: #666;">群聊：2026-Winter PQC Training Camp<br>请二楼码7天内10月27日前有效，重新进入将更新</p>
+            </div>
+            
+            <div class="info-box payment-info">
+                <h3>·缴费账户信息</h3>
+                <p style="line-height: 1.8;">
+                    <strong>开户行：</strong>交通银行股份有限公司成都电子科技大学支行<br>
+                    <strong>账户名：</strong>成都淇盾安腾信息科技有限责任公司<br>
+                    <strong>银行账户：</strong>5115 1118 6013 0010 49851<br>
+                    <strong>用途备注：</strong>付款时请备注「训练营报名+单位名称/姓名」
+                </p>
+                <div style="text-align: right; margin-top: 20px;">
+                    <div class="stamp">
+                        成都淇盾安腾信息科技有限责任公司<br>
+                        2026年10月15日
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 课程详细课表 -->
+    <section>
+        <h2 class="section-title">课程详细课表</h2>
+        <p><strong>课表说明：</strong></p>
+        <ul>
+            <li>上课时间：每周一至周四 19:00-22:00（北京时间）</li>
+            <li>总课时：48小时（4周深度实战）</li>
+            <li>授课模式：全程线上授课，采用“理论讲解+实时编码+课后实战”模式。</li>
+        </ul>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>周次</th>
+                    <th>日期</th>
+                    <th>核心课题</th>
+                    <th>实战项目</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>W1</strong></td>
+                    <td>01/04-01/07</td>
+                    <td>PQC 数学基石 → 格理论、LWE/RLWE问题、SVP复杂度分析、安全性证明基础</td>
+                    <td>格基规约模拟与LWE参数分析 ✓</td>
+                </tr>
+                <tr>
+                    <td><strong>W2</strong></td>
+                    <td>01/11-01/14</td>
+                    <td>NIST 标准与算法 → ML-KEM (Kyber)封装机制、ML-DSA (Dilithium)签名、参数权衡</td>
+                    <td>ML-KEM/ML-DSA 基础实现 ✓</td>
+                </tr>
+                <tr>
+                    <td><strong>W3</strong></td>
+                    <td>01/18-01/21</td>
+                    <td>工程实现与优化 → 数论变换(NTT)加速、常数时间编程、内存优化、侧信道防御</td>
+                    <td>高效PQC 算子优化 ✓</td>
+                </tr>
+                <tr>
+                    <td><strong>W4</strong></td>
+                    <td>01/25-01/28</td>
+                    <td>迁移部署与混合模式 → 经典-量子混合方案、TLS/SSH 协议升级、量子安全链路部署</td>
+                    <td>完整量子安全通信链路交付 ✓</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <footer class="footer">
+        <p>2027（冬季）后量子密码及其应用训练营</p>
+    </footer>
+</div>
+
+</body>
+</html>
